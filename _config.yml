@@ -25,7 +25,6 @@ description: Dev On The Go
 navbar-links:
   Categories:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-      - Author's home: "http://deanattali.com"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
   About: "aboutme"
