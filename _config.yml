@@ -99,7 +99,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "https://devotg.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "devotg.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
@@ -107,7 +107,7 @@ url-pretty: "https://devotg.com"  # eg. "deanattali.com/beautiful-jekyll"
 #gtag: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-116471905-2"
 
 # Google Tag Manager ID
 #gtm: ""
@@ -124,7 +124,7 @@ url-pretty: "https://devotg.com"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Comments --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-# disqus: ""
+disqus: "DevOTG"
 
 # To use Facebook Comments, fill in a Facebook App ID
 # fb_comment_id: ""
