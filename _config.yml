@@ -24,7 +24,7 @@ description: Dev On The Go
 # List of links in the navigation bar
 navbar-links:
   IT:
-    - Python: "https://www.devotg.gom/python/"
+    - Python: "https://www.devotg.com/python/"
   Categories:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
