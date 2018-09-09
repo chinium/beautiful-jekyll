@@ -24,7 +24,7 @@ description: Dev On The Go
 # List of links in the navigation bar
 navbar-links:
   IT:
-    - Python: "https://devots.gom/python/"
+    - Python: "https://www.devotg.gom/python/"
   Categories:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
@@ -101,7 +101,7 @@ social-network-links:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "devotg.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "www.devotg.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
