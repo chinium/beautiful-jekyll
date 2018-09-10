@@ -153,11 +153,22 @@ title-separator: "-"
 timezone: "Asia/Seoul"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
 paginate: 5
 
 kramdown:
   input: GFM
+
+# default permalink
+permalink: /:path/:basename/
+#permalink: /:year-:month-:day-:title/
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:title/
+  docs:
+    output: true
+    permalink: /:collection/:categories/:title/
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
@@ -167,6 +178,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      permalink: /blog/:title/
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   -
