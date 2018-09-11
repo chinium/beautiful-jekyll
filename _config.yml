@@ -25,11 +25,11 @@ description: Dev On The Go
 navbar-links:
   IT:
     - Python: "https://www.devotg.com/python/"
-  Categories:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
-  About: "aboutme"
+#  Categories:
+#    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+#    - Learn markdown: "http://www.markdowntutorial.com/"
+#    - GitHub Pages: "https://pages.github.com/"
+  About: "about"
 #  Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -66,7 +66,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: chinium
+  name: 
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -74,7 +74,7 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "chinium.kr@gmail.com"
+#  email: "chinium.kr@gmail.com"
 #  facebook: daattali
 #  github: daattali
 #  twitter: daattali
@@ -152,11 +152,15 @@ title-separator: "-"
 # Output options (more information on Jekyll's site)
 timezone: "Asia/Seoul"
 markdown: kramdown
-highlighter: rouge
-paginate: 5
-
 kramdown:
   input: GFM
+  hard_wrap: false
+  toc_levels: 1..2
+future: true
+
+highlighter: rouge
+paginate: 10
+
 
 # default permalink
 permalink: /:path/:basename/
