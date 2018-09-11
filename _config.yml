@@ -152,11 +152,15 @@ title-separator: "-"
 # Output options (more information on Jekyll's site)
 timezone: "Asia/Seoul"
 markdown: kramdown
-highlighter: rouge
-paginate: 5
-
 kramdown:
   input: GFM
+  hard_wrap: false
+  toc_levels: 1..2
+future: true
+
+highlighter: rouge
+paginate: 10
+
 
 # default permalink
 permalink: /:path/:basename/
