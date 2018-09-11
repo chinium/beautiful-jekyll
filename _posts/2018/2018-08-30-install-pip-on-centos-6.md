@@ -1,6 +1,9 @@
-Title: Install PIP on CentOS 6
-Date: 2018-08-30 12:00
-Tags: pip, centos6
+---
+layout: post
+title: Install PIP on CentOS 6
+date: 2018-08-30 12:00
+tags: [pip, centos6]
+---
 
 
 ### PIP
