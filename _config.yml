@@ -175,9 +175,9 @@ collections:
   docs:
     output: true
     permalink: /:collection/:categories/:title/
-  jpop:
-    output: true
-    permalink: /:collection/:categories/:title/
+#  jpop:
+#    output: true
+#    permalink: /:collection/:categories/:title/
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
