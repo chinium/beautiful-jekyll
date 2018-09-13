@@ -184,7 +184,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      permalink: /:year/:month/:title/
+      permalink: /:year/:month/:day/:title/
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   -
