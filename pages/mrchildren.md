@@ -1,5 +1,5 @@
 ---
 title: Mr.Children
 layout: page
-permalink: mr.children.html
+permalink: mrchildren
 ---
