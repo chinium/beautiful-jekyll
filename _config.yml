@@ -30,7 +30,7 @@ navbar-links:
 #    - Learn markdown: "http://www.markdowntutorial.com/"
 #    - GitHub Pages: "https://pages.github.com/"
   OTG:
-    - Mr.Children: "https://www.devotg.com/mrchildren/"
+    - MrChildren: "https://www.devotg.com/mrchildren/"
   About: "about"
 #  Author's home: "http://deanattali.com"
 
@@ -175,6 +175,9 @@ collections:
   docs:
     output: true
     permalink: /:collection/:categories/:title/
+  jpop:
+    output: true
+    permalink: /:collection/:categories/:title/
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
@@ -184,7 +187,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      permalink: /:year/:month/:title/
+      permalink: /:year/:month/:day/:title/
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
   -
