@@ -24,13 +24,13 @@ description: Dev On The Go
 # List of links in the navigation bar
 navbar-links:
   IT:
-    - Python: "https://www.devotg.com/python/"
+    - Python: "python"
 #  Categories:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
 #    - GitHub Pages: "https://pages.github.com/"
   OTG:
-    - MrChildren: "https://www.devotg.com/mrchildren/"
+    - Mr.Children: "mr.children"
   About: "about"
 #  Author's home: "http://deanattali.com"
 
