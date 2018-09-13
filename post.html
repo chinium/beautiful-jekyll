@@ -5,22 +5,20 @@ layout: page
 {% assign posts_by_date = site.posts |sort: 'date last' %}
 <div id="post-archives">
 {% for post in posts_by_date %}
-{% assign ym = post.date |date: "%Y" %}
-{% assign cat_id = post.categories |last |downcase %}
-{% assign cat = site.data['categories'] |where: "id", cat_id |first %}
-{% if forloop.first %}
-  <h3>{{ ym }}</h3>
-  <ul class="posts nodot">
-{% elsif ym != p_ym %}
-  </ul>
-  <h3>
-{{ ym }}</h3>
-  <ul class="posts nodot">
-{% endif %}
-    <li><a href="{{ post.url }}" title="{{ post.title }}">
-{{ post.title }}</a>
-      <span class="post-meta pull-right"><i class="fa fa-book"></i> <a href="/categories/{{ cat.id }}/">
-{{ cat.name }}</a>, <i class="fa fa-calendar"></i> {{ post.date |date: "%F" }}
+  {% assign ym = post.date |date: "%Y" %}
+  {% assign cat_id = post.categories |last |downcase %}
+  {% assign cat = site.data['categories'] |where: "id", cat_id |first %}
+  {% if forloop.first %}
+    <h3>{{ ym }}</h3>
+    <ul class="posts nodot">
+  {% elsif ym != p_ym %}
+    </ul>
+    <h3>
+  {{ ym }}</h3>
+    <ul class="posts nodot">
+  {% endif %}
+      <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      <span class="post-meta pull-right"><i class="fa fa-book"></i> <a href="/categories/{{ cat.id }}/">{{ cat.name }}</a>, <i class="fa fa-calendar"></i> {{ post.date |date: "%F" }}
       {% if jekyll.environment == "development" %}
         <a href="https://developers.facebook.com/tools/debug/sharing/?q={{ site.real_url }} {{ post.url }}%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3D">DBG</a>
       <!--- Share on Facebook -->
@@ -30,9 +28,9 @@ layout: page
       </a>
       {% endunless %}
       {% endif %}</span></li>
-{% if forloop.last %}
-  </ul>
-{% endif %}
-{% assign p_ym = ym %}
+  {% if forloop.last %}
+    </ul>
+  {% endif %}
+  {% assign p_ym = ym %}
 {% endfor %}
 </div>
